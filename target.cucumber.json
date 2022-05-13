@@ -1,0 +1,116 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-13T01:21:47.345Z",
+        "line": 4,
+        "name": "User should be able to all 12 months in months dropdown",
+        "description": "",
+        "id": "simple-example-of-how-datatables-work;user-should-be-able-to-all-12-months-in-months-dropdown",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10536000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the dropdown page of practice tool",
+            "match": {
+              "location": "com.cybertek.step_definitions.dataTable_StepDefinition.user_is_on_the_dropdown_page_of_practice_tool()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:87)\n\tat org.junit.Assert.assertTrue(Assert.java:42)\n\tat org.junit.Assert.assertTrue(Assert.java:53)\n\tat com.cybertek.step_definitions.dataTable_StepDefinition.user_should_see_below_info_in_month_dropdown(dataTable_StepDefinition.java:46)\n\tat ✽.User should see below info in month dropdown(file:///Users/arzigulm/IdeaProjects/cybertek21_cucumber_junit_Ghurhan/src/test/resources/features/dataTable.feature:6)\n",
+              "duration": 286000000,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "User should see below info in month dropdown",
+            "match": {
+              "location": "com.cybertek.step_definitions.dataTable_StepDefinition.user_should_see_below_info_in_month_dropdown(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "January"
+                ]
+              },
+              {
+                "cells": [
+                  "February"
+                ]
+              },
+              {
+                "cells": [
+                  "March"
+                ]
+              },
+              {
+                "cells": [
+                  "April"
+                ]
+              },
+              {
+                "cells": [
+                  "Maay"
+                ]
+              },
+              {
+                "cells": [
+                  "June"
+                ]
+              },
+              {
+                "cells": [
+                  "July"
+                ]
+              },
+              {
+                "cells": [
+                  "August"
+                ]
+              },
+              {
+                "cells": [
+                  "September"
+                ]
+              },
+              {
+                "cells": [
+                  "October"
+                ]
+              },
+              {
+                "cells": [
+                  "November"
+                ]
+              },
+              {
+                "cells": [
+                  "December"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dataTable"
+          }
+        ]
+      }
+    ],
+    "name": "Simple example of how dataTables work",
+    "description": "",
+    "id": "simple-example-of-how-datatables-work",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/dataTable.feature",
+    "tags": []
+  }
+]
